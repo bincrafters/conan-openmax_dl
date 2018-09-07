@@ -1,6 +1,7 @@
-// #include <cpprest/json.h>
+#include <omxVC.h>
+#include <iostream>
 
 int main()
 {
-    // const auto parsed_value = web::json::value::parse(U("-22"));
+    std::cout << "OpenMAX DL" << std::endl;
 }
