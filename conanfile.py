@@ -5,7 +5,6 @@ class OpenMAXDLConan(ConanFile):
     name = "openmax_dl"
     version = "1.0.2"
     url = "https://github.com/bincrafters/conan-openmax_dl"
-    author = "Bincrafters <bincrafters@gmail.com>"
     description = "OpenMAX™ is a royalty-free, cross-platform API that provides comprehensive streaming media codec " \
                   "and application portability by enabling accelerated multimedia components to be developed, " \
                   "integrated and programmed across multiple operating systems and silicon platforms"
