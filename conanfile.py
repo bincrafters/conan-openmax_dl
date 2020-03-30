@@ -10,7 +10,6 @@ class OpenMAXDLConan(ConanFile):
                   "integrated and programmed across multiple operating systems and silicon platforms"
     no_copy_source = True
     license = "Khronos"
-    exports = ["LICENSE.md"]
 
     def source(self):
         tools.get('https://www.khronos.org/registry/OpenMAX-DL/api/1.0/omx_dl_v1_0_2.h.zip')
